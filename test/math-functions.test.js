@@ -5,7 +5,7 @@ import {
     sumArrayWithThreeNumbers, 
     multiplyArrayWithThreeNumbers, 
     multiplyAnyArray
-} from '../src/math-functions.js';
+} from '../src/math-functions';
 
 const test = QUnit.test;
 
