@@ -10,15 +10,12 @@ example and uses the values that were input into the function:
 
 "The sum of 4 and 7 is 11."
 */
-const test = QUnit.test;
-
-test (‘sum',(assert) => {
-    const result = sum(8, 4);
-    assert.equal(result[0], 12);
-    assert.equal(result[1], 'The sum of 8 and 4 is 12.’);
-});
-
 export function sum(a, b) {
+    let x = a + b;
+    const array = [ ]
+    array [0] = x;
+    array [1] = `The sum of ${a} and ${b} is ${x}.`;
+    return array
 
 }
 
